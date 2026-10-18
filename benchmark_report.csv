@@ -1,0 +1,9 @@
+Algorithm,Elapsed Time (ms),Comparisons,Swaps,Movements / Shifts,Stability,Time (Best),Time (Avg),Time (Worst),Space Complexity,Status
+Insertion Sort,48538.939,62436110,0,62436117,Stable,O(n),O(n²),O(n²),O(1),Success
+Selection Sort,69785.237,114435756,15086,0,Unstable,O(n²),O(n²),O(n²),O(1),Success
+Merge Sort,239.557,188885,0,421102,Stable,O(n log n),O(n log n),O(n log n),O(n),Success
+Bubble Sort,123891.791,114422553,62420989,0,Stable,O(n),O(n²),O(n²),O(1),Success
+Quick Sort,427.03,652167,109981,0,Unstable,O(n log n),O(n log n),O(n²),O(log n),Success
+Counting Sort,19.523,0,0,30178,Stable,O(n + k),O(n + k),O(n + k),O(n + k) [k=1001],Success
+Bucket Sort,257.262,1001038,0,1031344,Stable,O(n + k),O(n + k),O(n²),O(n + k) [k=100],Success
+Radix Sort,188.829,0,0,120712,Stable,"O(d*(n+b)) [d=4, b=10]","O(d*(n+b)) [d=4, b=10]","O(d*(n+b)) [d=4, b=10]",O(n + b),Success
